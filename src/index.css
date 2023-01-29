@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+
+  box-sizing: border-box;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-color: cadetblue;
+color: aliceblue;
+
+}
+.text-center{
+
+  text-align: center;
+}
+.app-container{
+  width: 60%;
+  margin: 10% auto;
+}
+
+.listitem{
+
+  background-color:white;
+  color: cadetblue;
+}
+
+.listitem p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+
+
+}
+.listitem span{
+
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+
+.listitem span.title{
+background-color: cornflowerblue;
+color: #fff;
+}
+.listitem span.name,
+  form input [type=text]{
+
+    width: 60%;
+}
+
+.listitem span.age,
+  form input [type=number]{
+
+    width: 25%;
+}
+.listitem span.action,
+  form input [type=submit]{
+
+    width: 15%;
+}
+.listitem span.icon{
+
+  color:red;
+  cursor: pointer;
+}
+
+form input
+{
+  padding: 10px;
+  background-color: aliceblue;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+form input[type=submit]
+{
+
+  background-color:cornflowerblue;
+  border: 0.3px solid #ccc;
+  color: #fff;
+  cursor: pointer;
+  width: 15%;
+
+
+}
+form input[type=text]
+{
+
+  width: 60%;
+
+}
+form input[type=number]
+{
+
+  width: 25%;
+
+}
